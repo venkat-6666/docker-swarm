@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: us-docker.pkg.dev/fifth-medley-478216-a7/docker/python-app:v1
+    image: venkatgurram/flask
     environment:
       - NODE_HOSTNAME=${NODE_HOSTNAME}
     deploy:
